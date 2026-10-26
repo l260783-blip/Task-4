@@ -1,0 +1,49 @@
+
+style.css
+CSS
+body {
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+#header {
+    background-color: lightturquoise;
+    border: 1px solid teal;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+#sidebar {
+    float: left;
+    width: 20%;
+    background-color: lightcyan;
+    border: 1px solid teal;
+    padding: 10px;
+    margin-right: 2%;
+}
+
+#main {
+    float: left;
+    width: 75%;
+}
+
+.post {
+    border: 2px solid lightturquoise;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.post h2 {
+    color: teal;
+    border-bottom: 2px dashed lightturquoise;
+    font-weight: bold;
+}
+
+.post-image {
+    float: right;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
